@@ -15,9 +15,7 @@ namespace WindowsFormsApp1
         static void Main()
         {
             ClassLibrary1.Class1 cl = new ClassLibrary1.Class1();
-            CrossPlatformLib.CrossPlatformLib cpl = new CrossPlatformLib.CrossPlatformLib();
             dotnet2Lib.Class1 d2 = new dotnet2Lib.Class1();
-            Corelib.Class1 cc = new Corelib.Class1();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
