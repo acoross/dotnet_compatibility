@@ -14,7 +14,11 @@ namespace dotnetApp
             sc.data = 10;
 
             CrossPlatformLib.CrossPlatformLib cpl = new CrossPlatformLib.CrossPlatformLib();
-            
+            MacCoreLib.MyClass mcl = new MacCoreLib.MyClass();
+
+
+            Console.WriteLine(sc.data);
+            Console.ReadKey();
         }
     }
 }
