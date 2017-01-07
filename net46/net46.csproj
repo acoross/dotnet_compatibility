@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4479A07B-27FB-4A47-BEEF-17185C43CC99}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>dotnetApp</RootNamespace>
-    <AssemblyName>dotnetApp</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <ProjectGuid>{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>net46</RootNamespace>
+    <AssemblyName>net46</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,34 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\dotnetLib.csproj">
-      <Project>{d51f6d16-6470-4937-9977-76f8f828f74a}</Project>
-      <Name>dotnetLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CrossPlatformLib\CrossPlatformLib.csproj">
-      <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
-      <Name>CrossPlatformLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\dotnet2Lib\dotnet2Lib.csproj">
-      <Project>{d855007b-a201-4a3a-9dd5-0a85a41bfbb7}</Project>
-      <Name>dotnet2Lib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MacCoreLib\MacCoreLib.csproj">
-      <Project>{68becb66-4517-40ce-96c2-7f031fc4ff85}</Project>
-      <Name>MacCoreLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MacPCL\MacPCL.csproj">
-      <Project>{77ea4f03-70d4-4fda-8663-fbf255ff1514}</Project>
-      <Name>MacPCL</Name>
+    <ProjectReference Include="..\Corelib\Corelib.csproj">
+      <Project>{e37eece9-f90c-482e-8736-b97bef21ad7f}</Project>
+      <Name>Corelib</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="..\SharedProject1\SharedProject1.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

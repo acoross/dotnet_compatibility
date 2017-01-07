@@ -1,12 +1,19 @@
 ﻿using System;
+using static System.Console;
 
 class Program
 {
     static void Main(string[] args)
     {
         SharedProject1.SharedClass sc = new SharedProject1.SharedClass();
-        ClassLibrary1.Class1 cl = new ClassLibrary1.Class1();
+        dotnetLib.Class1 cl = new dotnetLib.Class1();
+        dotnet2Lib.Class1 d2 = new dotnet2Lib.Class1();
 
-        Console.WriteLine("Hello World!");
+        WriteLine(cl.a);
+        WriteLine(d2.val);
+
+        WriteLine("Hello World!");
+
+        ReadKey();
     }
 }

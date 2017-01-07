@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26014.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corelib", "Corelib\Corelib.csproj", "{E37EECE9-F90C-482E-8736-B97BEF21AD7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corelib", "Corelib\Corelib.csproj", "{E37EECE9-F90C-482E-8736-B97BEF21AD7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApp", "CoreApp\CoreApp.csproj", "{722AC135-04FF-4D37-899E-C9936DEEEC82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApp", "CoreApp\CoreApp.csproj", "{722AC135-04FF-4D37-899E-C9936DEEEC82}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CrossPlatformApp", "CrossPlatformApp\CrossPlatformApp.shproj", "{209A1BF2-893F-47B0-AA5C-18C32D584E9E}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossPlatformLib", "CrossPl
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{678D54DF-E075-4AF4-BF62-C9B8CBB58816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{D51F6D16-6470-4937-9977-76F8F828F74A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetLib", "ClassLibrary1\dotnetLib.csproj", "{D51F6D16-6470-4937-9977-76F8F828F74A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetApp", "dotnetApp\dotnetApp.csproj", "{4479A07B-27FB-4A47-BEEF-17185C43CC99}"
 EndProject
@@ -23,13 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet2Lib", "dotnet2Lib\do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{36934DE4-D1B5-4DFA-AD01-60EDE36E6F13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacCoreLib", "MacCoreLib\MacCoreLib.csproj", "{68BECB66-4517-40CE-96C2-7F031FC4FF85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacCoreLib", "MacCoreLib\MacCoreLib.csproj", "{68BECB66-4517-40CE-96C2-7F031FC4FF85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacCoreApp", "MacCoreApp\MacCoreApp.csproj", "{6A4EB6FA-FA93-48CF-9D07-456469BEEEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacCoreApp", "MacCoreApp\MacCoreApp.csproj", "{6A4EB6FA-FA93-48CF-9D07-456469BEEEE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacPCL", "MacPCL\MacPCL.csproj", "{77EA4F03-70D4-4FDA-8663-FBF255FF1514}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaApp", "CocoaApp\CocoaApp.csproj", "{4213B9E7-A31A-458D-915E-0822E777E268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net46", "net46\net46.csproj", "{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -530,6 +532,46 @@ Global
 		{4213B9E7-A31A-458D-915E-0822E777E268}.Release|x64.Build.0 = Release|Any CPU
 		{4213B9E7-A31A-458D-915E-0822E777E268}.Release|x86.ActiveCfg = Release|Any CPU
 		{4213B9E7-A31A-458D-915E-0822E777E268}.Release|x86.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|x64.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|x64.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|x64.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.AppStore|x86.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|x64.Build.0 = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Debug|x86.Build.0 = Debug|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|iPhone.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|x64.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|x64.Build.0 = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|x86.ActiveCfg = Release|Any CPU
+		{F951A60A-FCC7-41CE-AF84-E3F9613E0CED}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

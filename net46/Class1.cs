@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dotnetLib
+namespace net46
 {
     public class Class1
     {
-        public int a = 1;        
+        string net46 = "net46";
     }
 }

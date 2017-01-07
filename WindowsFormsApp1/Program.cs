@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-            ClassLibrary1.Class1 cl = new ClassLibrary1.Class1();
+            dotnetLib.Class1 cl = new dotnetLib.Class1();
             dotnet2Lib.Class1 d2 = new dotnet2Lib.Class1();
 
             Application.EnableVisualStyles();
